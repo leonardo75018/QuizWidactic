@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/QuizWidactic/static/css/main.e974bf54.chunk.css",
+    "main.js": "/QuizWidactic/static/js/main.c9b60bfa.chunk.js",
+    "main.js.map": "/QuizWidactic/static/js/main.c9b60bfa.chunk.js.map",
+    "runtime-main.js": "/QuizWidactic/static/js/runtime-main.47a8dffd.js",
+    "runtime-main.js.map": "/QuizWidactic/static/js/runtime-main.47a8dffd.js.map",
+    "static/js/2.3e3b9c20.chunk.js": "/QuizWidactic/static/js/2.3e3b9c20.chunk.js",
+    "static/js/2.3e3b9c20.chunk.js.map": "/QuizWidactic/static/js/2.3e3b9c20.chunk.js.map",
+    "index.html": "/QuizWidactic/index.html",
+    "static/css/main.e974bf54.chunk.css.map": "/QuizWidactic/static/css/main.e974bf54.chunk.css.map",
+    "static/js/2.3e3b9c20.chunk.js.LICENSE.txt": "/QuizWidactic/static/js/2.3e3b9c20.chunk.js.LICENSE.txt",
+    "static/media/colorText.14a0eae4.png": "/QuizWidactic/static/media/colorText.14a0eae4.png",
+    "static/media/logo.2cc127a6.png": "/QuizWidactic/static/media/logo.2cc127a6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47a8dffd.js",
+    "static/js/2.3e3b9c20.chunk.js",
+    "static/css/main.e974bf54.chunk.css",
+    "static/js/main.c9b60bfa.chunk.js"
+  ]
+}

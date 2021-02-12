@@ -1,0 +1,211 @@
+
+.titre{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.vert{
+    color: green;
+}
+.rouge{
+    color: red;
+}
+.jaune{
+    color: yellow;
+}
+
+.blue{
+    color: blue;
+}
+
+
+
+
+
+
+.profil{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  
+}
+
+.boite{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+}
+
+.caractéristiques{
+    width: 45%;
+}
+
+.raca-space{
+    width: 10%;
+}
+
+.content-profile{
+    width: 70%;
+}
+
+.space2{
+    width: 100%;
+    height: 5vh;
+}
+
+
+
+
+.cara-content{
+    width: 70%;
+}
+
+.cara{
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.cara-content{
+    width: 70%;
+    height: 50px;
+  
+}
+
+
+
+
+.argu-content{
+    display: flex;
+
+}
+
+.title{
+    width: 25%;
+    height: auto;
+    text-align: right;
+}
+
+.argu-space{
+    width: 7%;
+    height: auto;
+   
+}
+
+.descrip{
+    width: 100%;
+    height: 40px; 
+    padding-bottom: 10px;
+}
+
+.ligne{
+    border-top: 1px solid #000;
+    width : 100%;       
+}
+
+
+.autres{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    
+}
+
+.autres-options{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.cara-content{
+    height: auto;
+}
+
+.rouge_jaune{
+    display: flex;
+}
+
+
+
+/* Responsive  */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+
+    .content-profile {
+        width: 80%;
+    }
+
+
+    .argument p{
+        text-align:inherit
+
+    }
+
+
+
+    .boite{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caractéristiques{
+        width: 100%;
+    }
+
+    .title {
+        width: 50%;
+        height: auto;
+        text-align: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cara-content {
+        width: 90%;
+    }
+
+
+    .descrip {
+        width: 100%;
+        height: auto;
+        padding-bottom: 0;
+    }
+
+
+    .autres{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+       
+        padding-top: 10px;  
+    }
+
+    .autres-options{
+        width: 100%;
+        justify-content: space-evenly;
+        
+    }
+
+    .titre{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .argument{
+        text-align: justify;
+    }
+}
+
+

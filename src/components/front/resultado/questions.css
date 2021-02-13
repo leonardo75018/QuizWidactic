@@ -1,4 +1,16 @@
 
+@font-face {
+    font-family: "AvenirNextLTPro-Bold";
+    src: url("../../../Font/AvenirNextLTPro-Bold.otf") format("otf")
+          
+   }
+
+
+
+body{
+    font-family: "AvenirNextLTPro-Bold";
+}
+
 
 
 

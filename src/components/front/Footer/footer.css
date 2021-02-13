@@ -6,17 +6,29 @@ footer{
 
 
 .text-content{
-    float: right;
-    padding: 0px 50px 0px 0;
+   
 }
+
+.academie{
+    width: 200px;
+    height: 60px;
+    float: right;
+    padding: 50px 50px 0px 0;
+  
+}
+
+
+.academie img{
+    width: 100%;
+  
+    
+}
+
 
 
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
 
-   .text-content{
-       display: none;
-   } 
   }
 

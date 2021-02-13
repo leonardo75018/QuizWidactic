@@ -17,11 +17,12 @@ const End = ({ answers }) => {
     const [error, setError] = useState("")
     const [valid, setValied] = useState(false)
 
-
+    console.log(valid)
     const rouge = 1
     const jaune = 2
     const vert = 3
     const blue = 5
+
 
 
 

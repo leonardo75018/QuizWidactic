@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/QuizWidactic/static/css/main.fd2d14d1.chunk.css",
-    "main.js": "/QuizWidactic/static/js/main.a9cfd21c.chunk.js",
-    "main.js.map": "/QuizWidactic/static/js/main.a9cfd21c.chunk.js.map",
+    "main.css": "/QuizWidactic/static/css/main.5c65e721.chunk.css",
+    "main.js": "/QuizWidactic/static/js/main.9fbc9c37.chunk.js",
+    "main.js.map": "/QuizWidactic/static/js/main.9fbc9c37.chunk.js.map",
     "runtime-main.js": "/QuizWidactic/static/js/runtime-main.47a8dffd.js",
     "runtime-main.js.map": "/QuizWidactic/static/js/runtime-main.47a8dffd.js.map",
     "static/js/2.5b0de73e.chunk.js": "/QuizWidactic/static/js/2.5b0de73e.chunk.js",
     "static/js/2.5b0de73e.chunk.js.map": "/QuizWidactic/static/js/2.5b0de73e.chunk.js.map",
     "index.html": "/QuizWidactic/index.html",
-    "static/css/main.fd2d14d1.chunk.css.map": "/QuizWidactic/static/css/main.fd2d14d1.chunk.css.map",
+    "static/css/main.5c65e721.chunk.css.map": "/QuizWidactic/static/css/main.5c65e721.chunk.css.map",
     "static/js/2.5b0de73e.chunk.js.LICENSE.txt": "/QuizWidactic/static/js/2.5b0de73e.chunk.js.LICENSE.txt",
+    "static/media/questions.css": "/QuizWidactic/static/media/AvenirNextLTPro-Bold.711a4eb6.otf",
+    "static/media/academie.1eebd2ff.png": "/QuizWidactic/static/media/academie.1eebd2ff.png",
     "static/media/colorText.14a0eae4.png": "/QuizWidactic/static/media/colorText.14a0eae4.png",
     "static/media/logo.2cc127a6.png": "/QuizWidactic/static/media/logo.2cc127a6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.47a8dffd.js",
     "static/js/2.5b0de73e.chunk.js",
-    "static/css/main.fd2d14d1.chunk.css",
-    "static/js/main.a9cfd21c.chunk.js"
+    "static/css/main.5c65e721.chunk.css",
+    "static/js/main.9fbc9c37.chunk.js"
   ]
 }

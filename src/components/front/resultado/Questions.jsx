@@ -195,15 +195,15 @@ function App() {
     //New 
     {//11
       a: {
-        question: "Responsable et ferme\n",
+        question: "Esprit d'équipe et spontané\n",
         groupe: 2
       },
       b: {
-        question: "Réservé et coopératif\n",
+        question: "Contrôlé et rationnel\n",
         groupe: 3
       },
       c: {
-        question: "Expansif et imaginatif\n",
+        question: "Aimable et prévenant\n",
         groupe: 3
       },
       d: {
@@ -213,254 +213,254 @@ function App() {
     },
     {//12
       a: {
-        question: "Responsable et ferme\n",
+        question: " Analyste et sceptique\n",
         groupe: 4
       },
       b: {
-        question: "Réservé et coopératif\n",
+        question: "Amical et divertissant\n",
         groupe: 2
       },
       c: {
-        question: "Expansif et imaginatif\n",
+        question: "Exigeant et solide\n",
         groupe: 1
       },
       d: {
-        question: "Méticuleux et minutieux\n",
+        question: "Modeste et fidèle\n",
         groupe: 3
       }
     },
     {//13
       a: {
-        question: "Responsable et ferme\n",
+        question: " Attaché à ses proches et calme\n",
         groupe: 3
       },
       b: {
-        question: "Réservé et coopératif\n",
+        question: "Affectif et confiant\n",
         groupe: 2
       },
       c: {
-        question: "Expansif et imaginatif\n",
+        question: "Observateur et distant\n",
         groupe: 4
       },
       d: {
-        question: "Méticuleux et minutieux\n",
+        question: "Actif et contrôlant\n",
         groupe: 1
       }
     },
     {//14
       a: {
-        question: "Responsable et ferme\n",
+        question: "Volontaire et tenace\n",
         groupe: 1
       },
       b: {
-        question: "Réservé et coopératif\n",
+        question: "Conforme et sans parti pris\n",
         groupe: 4
       },
       c: {
-        question: "Expansif et imaginatif\n",
+        question: "Observateur et distant\n",
         groupe: 2
       },
       d: {
-        question: "Méticuleux et minutieux\n",
+        question: "Actif et contrôlant\n",
         groupe: 3
       }
     },
     {//15
       a: {
-        question: "Responsable et ferme\n",
+        question: "Formel et à principes\n",
         groupe: 4
       },
       b: {
-        question: "Réservé et coopératif\n",
+        question: " Jovial et populaire\n",
         groupe: 2
       },
       c: {
-        question: "Expansif et imaginatif\n",
+        question: "Modérateur et apaisant\n",
         groupe: 3
       },
       d: {
-        question: "Méticuleux et minutieux\n",
+        question: " Ferme et tranchant\n",
         groupe: 1
       }
     },
 
     {//16
       a: {
-        question: "Responsable et ferme\n",
+        question: "Animé et persuasif\n",
         groupe: 2
       },
       b: {
-        question: "Réservé et coopératif\n",
+        question: "Décideur et pressé\n",
         groupe: 1
       },
       c: {
-        question: "Expansif et imaginatif\n",
+        question: "Analytique et aimant la discipline\n",
         groupe: 4
       },
       d: {
-        question: "Méticuleux et minutieux\n",
+        question: "Tolérant et calme\n",
         groupe: 3
       }
     },
     {//17
       a: {
-        question: "Responsable et ferme\n",
+        question: "Patient et empathique\n",
         groupe: 3
       },
       b: {
-        question: "Réservé et coopératif\n",
+        question: "Logique et mesuré\n",
         groupe: 4
       },
       c: {
-        question: "Expansif et imaginatif\n",
+        question: "Orienté résultat et prêt au défi\n",
         groupe: 1
       },
       d: {
-        question: "Méticuleux et minutieux\n",
+        question: "Ouvert aux idées et arrangeant\n",
         groupe: 2
       }
     },
     {//18
       a: {
-        question: "Responsable et ferme\n",
+        question: "Influent et décontracté\n",
         groupe: 2
       },
       b: {
-        question: "Réservé et coopératif\n",
+        question: "Discret et philosophe\n",
         groupe: 3
       },
       c: {
-        question: "Expansif et imaginatif\n",
+        question: "Réfléchi et circonspect\n",
         groupe: 4
       },
       d: {
-        question: "Méticuleux et minutieux\n",
+        question: "Opiniâtre et déterminé\n",
         groupe: 1
       }
     },
     {//19
       a: {
-        question: "Responsable et ferme\n",
+        question: "Axé procédures et bien préparé\n",
         groupe: 4
       },
       b: {
-        question: "Réservé et coopératif\n",
+        question: "Courageux et autonome\n",
         groupe: 1
       },
       c: {
-        question: "Expansif et imaginatif\n",
+        question: " Extraverti et communicatif\n",
         groupe: 2
       },
       d: {
-        question: "Méticuleux et minutieux\n",
+        question: "Bienveillant et de bon conseil\n",
         groupe: 3
       }
     },
     {//20
       a: {
-        question: "Responsable et ferme\n",
+        question: "Puissant et clair\n",
         groupe: 1
       },
       b: {
-        question: "Réservé et coopératif\n",
+        question: "Spontané et vif\n",
         groupe: 2
       },
       c: {
-        question: "Expansif et imaginatif\n",
+        question: "Studieux et raisonné\n",
         groupe: 4
       },
       d: {
-        question: "Méticuleux et minutieux\n",
+        question: "Paisible et aimant l'harmonie\n",
         groupe: 3
       }
     },
     {//21
       a: {
-        question: "Responsable et ferme\n",
+        question: "Organisé et prudent\n",
         groupe: 4
       },
       b: {
-        question: "Réservé et coopératif\n",
+        question: "Patient et serviable\n",
         groupe: 3
       },
       c: {
-        question: "Expansif et imaginatif\n",
+        question: "Argumenté et sûr de lui\n",
         groupe: 1
       },
       d: {
-        question: "Méticuleux et minutieux\n",
+        question: " Interactif et ouvert\n",
         groupe: 2
       }
     },
     {//22
       a: {
-        question: "Responsable et ferme\n",
+        question: "Indépendant et audacieux\n",
         groupe: 1
       },
       b: {
-        question: "Réservé et coopératif\n",
+        question: "Souple et harmonieux\n",
         groupe: 3
       },
       c: {
-        question: "Expansif et imaginatif\n",
+        question: "Factuel et respectueux des normes\n",
         groupe: 4
       },
       d: {
-        question: "Méticuleux et minutieux\n",
+        question: "Aimable et vivant\n",
         groupe: 2
       }
     },
     {//23
       a: {
-        question: "Responsable et ferme\n",
+        question: " Démonstratif et enthousiaste\n",
         groupe: 2
       },
       b: {
-        question: "Réservé et coopératif\n",
+        question: "Directif et réaliste\n",
         groupe: 1
       },
       c: {
-        question: "Expansif et imaginatif\n",
+        question: "Compatissant et prévenant\n",
         groupe: 3
       },
       d: {
-        question: "Méticuleux et minutieux\n",
+        question: "Attentif et soucieux du détail\n",
         groupe: 4
       }
     },
     {//24
       a: {
-        question: "Responsable et ferme\n",
+        question: "Stable et altruiste\n",
         groupe: 3
       },
       b: {
-        question: "Réservé et coopératif\n",
+        question: " Objectif et hardi\n",
         groupe: 1
       },
       c: {
-        question: "Expansif et imaginatif\n",
+        question: "Consciencieux et introspectif\n",
         groupe: 4
       },
       d: {
-        question: "Méticuleux et minutieux\n",
+        question: "Sociable et bon vivant\n",
         groupe: 2
       }
     },
     {//25
       a: {
-        question: "Responsable et ferme\n",
+        question: "Détaillé et précautionneux\n",
         groupe: 4
       },
       b: {
-        question: "Réservé et coopératif\n",
+        question: " Direct et carré\n",
         groupe: 1
       },
       c: {
-        question: "Expansif et imaginatif\n",
+        question: " Expressif et radieux\n",
         groupe: 2
       },
       d: {
-        question: "Méticuleux et minutieux\n",
+        question: "Tolérant et ferme\n",
         groupe: 3
       }
     }
@@ -479,6 +479,7 @@ function App() {
 
   ]
   const [i, setI] = useState(0)
+  console.log(i)
 
   const [choix, setChoix] = useState("")
   console.log(choix)
@@ -534,13 +535,9 @@ function App() {
               </div>
             ) : (<div> </div>)
           }
-          <progress value={i} max="10" />
-
-
+          <progress value={i} max="25" />
         </div>
       </div>
-
-
 
 
       <div className="card">
@@ -641,10 +638,10 @@ function App() {
 
           : <End answers={
             [
-              { groupe: "rouge", points: g1 },
-              { groupe: "jaune", points: g2 },
-              { groupe: "vert", points: g3 },
-              { groupe: "blue", points: g4 }
+              { rouge: "Rouge", points: g1 },
+              { jaune: "Jaune", points: g2 },
+              { vert: "Vert", points: g3 },
+              { blue: "Blue", points: g4 }
             ]
 
           } />}

@@ -115,11 +115,11 @@ const Blue = () => {
                         </p>
                     </div>
                 </div>
-                <div className="autres-options">
+                {/* <div className="autres-options">
                     <h3 className="rouge">Rouge</h3>
                     <h3 className="jaune">Jaune</h3>
                     <h3 className="vert">vert</h3>
-                </div>
+                </div> */}
             </div>
         </div>
     )

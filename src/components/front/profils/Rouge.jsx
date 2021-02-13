@@ -4,9 +4,7 @@ import "./style.css"
 
 
 
-const Rouge = ({ result, setResult }) => {
-    console.log(result)
-
+const Rouge = ({ profile }) => {
 
 
     return (

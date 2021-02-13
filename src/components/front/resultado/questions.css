@@ -68,6 +68,10 @@ progress{
     color:red;
 }
 
+p.{
+    font-family: amac;
+}
+
 
 .textEnd{
     width: 100%;
@@ -155,16 +159,19 @@ input[type=email] {
     border: 2px solid black;
     border-radius: 50px;
     margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .radio--radio::after{
     content: "";
-    width: 100%;
-    height: 100%;
+    width: 60%;
+    height: 60%;
     display: block;
     border-radius: 50px;
-    background: greenyellow;
+    background: black;
     transform: scale(0);
 }
 

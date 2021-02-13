@@ -4,8 +4,7 @@ import "./style.css"
 
 
 
-const Rouge = ({ result, setResult }) => {
-    console.log(result)
+const Rouge = ({ profile, setProfile }) => {
 
 
 
@@ -32,8 +31,9 @@ const Rouge = ({ result, setResult }) => {
                     </div>
                 </div>
 
-
                 <div className="space2"> </div>
+
+
 
             </div>
         </div>

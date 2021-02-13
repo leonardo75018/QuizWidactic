@@ -13,7 +13,7 @@ const End = ({ answers }) => {
         "Saisissez votre adresse mail, on va vous en dire plus.",
     ]
 
-    const [email, setEmail] = useState("")
+    const [email, setEmail] = useState("leo@gmail.com")
     const [error, setError] = useState("")
     const [valid, setValied] = useState(false)
 

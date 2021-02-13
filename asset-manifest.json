@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/QuizWidactic/static/css/main.fd2d14d1.chunk.css",
-    "main.js": "/QuizWidactic/static/js/main.81fc5b05.chunk.js",
-    "main.js.map": "/QuizWidactic/static/js/main.81fc5b05.chunk.js.map",
+    "main.js": "/QuizWidactic/static/js/main.a9cfd21c.chunk.js",
+    "main.js.map": "/QuizWidactic/static/js/main.a9cfd21c.chunk.js.map",
     "runtime-main.js": "/QuizWidactic/static/js/runtime-main.47a8dffd.js",
     "runtime-main.js.map": "/QuizWidactic/static/js/runtime-main.47a8dffd.js.map",
     "static/js/2.5b0de73e.chunk.js": "/QuizWidactic/static/js/2.5b0de73e.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.47a8dffd.js",
     "static/js/2.5b0de73e.chunk.js",
     "static/css/main.fd2d14d1.chunk.css",
-    "static/js/main.81fc5b05.chunk.js"
+    "static/js/main.a9cfd21c.chunk.js"
   ]
 }

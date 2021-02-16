@@ -1,10 +1,12 @@
 import React from 'react'
 import colortText from "../../../image/colorText.png"
 import "./start.css"
+import Footer from "../Footer/Footer"
+
 
 const Start = ({ quizStartHandler }) => {
     const text = [
-        "Ce test comprend une série de vingt-cinq propositions. ",
+        "Ce test comprend  vingt-cinq propositions. ",
         " Sélectionnez la ligne composée des deux adjectifs qui vous qualifient le mieux. Votre résultat sera d’autant plus précis que vous répondrez spontanément.",
         "Ça prendra 5 minutes. Êtes-vous prêt à commencer ?"
     ]
@@ -25,6 +27,10 @@ const Start = ({ quizStartHandler }) => {
                 </div>
             </div>
             <button className="btn-start" onClick={quizStartHandler}>Allons-y</button>
+            <div className="start-space"></div>
+            <Footer />
+
+
         </div>
     )
 }

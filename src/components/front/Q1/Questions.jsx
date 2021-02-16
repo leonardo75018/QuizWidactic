@@ -148,6 +148,8 @@ const Question = ({ data, onAnswerUpdate, numberOfQuestions, activeQuestion, onS
                     </div>
                     <progress value={data.step} max="5" />
 
+
+
                     {
                         data.step === 5 ?
                             (

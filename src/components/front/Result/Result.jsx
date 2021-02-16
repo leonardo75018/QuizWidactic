@@ -1,19 +1,12 @@
 import React, { useState, useEffect } from "react"
-import rouge from "../profils/Rouge"
-import jaune from "../profils/Jaune"
-import vert from "../profils/Vert"
-import blue from "../profils/Blue"
+import Footer from "../Footer/Footer"
+import "./result.css"
+
 import Rouge from "../profils/Rouge"
 import Jaune from "../profils/Jaune"
 import Vert from "../profils/Vert"
 import Blue from "../profils/Blue"
-import RougeJeune from "../profils/RougeJeune"
-import BlueVert from "../profils/BlueVert"
-import RougeBlue from "../profils/RougeBlue"
-import RougeVert from "../profils/RougeVert"
-import BlueJaune from "../profils/BlueJaune"
-import VertJaune from "../profils/VertJeune"
-import "./result.css"
+
 
 
 
@@ -53,10 +46,10 @@ const Result = ({ answers }) => {
                     {
                         answers.map(item =>
                             <div className="groupe">
-                                <h3 className="rouge" onClick={() => setProfile("rouge")} >{item.rouge}</h3>
-                                <h3 className="jaune" onClick={() => setProfile("jaune")} >{item.jaune}</h3>
-                                <h3 className="vert" onClick={() => setProfile("vert")} >{item.vert}</h3>
-                                <h3 className="blue" onClick={() => setProfile("blue")} >{item.blue}</h3>
+                                <h3 className="rouge"  >{item.rouge}</h3>
+                                <h3 className="jaune"  >{item.jaune}</h3>
+                                <h3 className="vert" >{item.vert}</h3>
+                                <h3 className="blue" >{item.blue}</h3>
                             </div>
                         )
                     }
@@ -75,26 +68,11 @@ const Result = ({ answers }) => {
                 }
 
             </div>
-            <div>
-                {profile === "rouge" ? (<Rouge profile={profile} />) : (<div> </div>)}
-                {profile === "jaune" ? (<Jaune />) : (<div> </div>)}
-                {profile === "vert" ? (<Vert />) : (<div> </div>)}
-                {profile === "blue" ? (<Blue />) : (<div> </div>)}
-
-            </div>
-            {/* {profile.length > 0 ?
-                (
-                    <div className="autres-options">
-                        <div><p>Envie de découvrir les autres profils ? </p></div>
-                        <h3 className="rouge">Rouge</h3>
-                        <h3 className="jaune">Jaune</h3>
-                        <h3 className="vert">vert</h3>
-                    </div>
-                ) :
-                (<div> </div>)} */}
-
-
-
+            <Rouge />
+            <Jaune />
+            <Vert />
+            <Blue />
+            <Footer />
         </div>
     )
 }

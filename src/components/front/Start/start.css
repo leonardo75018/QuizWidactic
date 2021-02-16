@@ -7,13 +7,7 @@
     align-items: center;
 }
 
-h1{
-    font-size: 50px;
-    color:rgb(23, 2, 49)
-}
-p{
-    font-weight: bold;
-}
+
 
 .colortText-contente{
     width: 300px;
@@ -38,17 +32,19 @@ p{
    height: auto;
 }
 
-.text-contente{
-    width: 805px;
+.text-contente {
+    width: 806px;
     height: 200px;
-    text-align: left; 
-    margin-left: 121px;
-    margin-top: 38px;
+    text-align: left;
+    margin-left: 158px;
+    margin-top: 47px;
 }
 
-.text p{
+
+.text p {
     padding-bottom: 15px;
-    color:rgb(23, 2, 49)
+    color: rgb(23, 2, 49);
+    font-size: 20px;
 }
 
 
@@ -70,7 +66,14 @@ p{
   .btn-start {border-radius: 20px;}
   .btn-start{
       cursor: pointer;
+      font-size: 17px;
   }
+
+
+  .start-space{
+      height: 20vh;
+  }
+
 
 
   /* Responsive  */
@@ -87,6 +90,10 @@ p{
 
     .btn-start {
         width: 127px;
+    }
+
+    .start-space{
+        height: 16vh;
     }
     
    

@@ -2,9 +2,16 @@ import React, { useState, useEffect } from 'react'
 import "./end.css"
 import { db } from "../../../db/Firebase"
 import Result from "../Result/Result"
+import Footer from "../Footer/Footer"
 
 
-const End = ({ answers }) => {
+
+const End = ({ answers, setFinish }) => {
+
+
+
+
+
 
 
     const EMAIL_REGEX = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -17,7 +24,8 @@ const End = ({ answers }) => {
     const [error, setError] = useState("")
     const [valid, setValied] = useState(false)
 
-    console.log(valid)
+
+
     const rouge = 1
     const jaune = 2
     const vert = 3
@@ -30,6 +38,7 @@ const End = ({ answers }) => {
 
     const checkEmail = (e) => {
         e.preventDefault()
+
 
         if (!email.trim()) {
             setError("veuillez ajouter une adresse email")
@@ -51,12 +60,16 @@ const End = ({ answers }) => {
         }
         const data = await db.collection("quiz").add(clientEmail)
         setValied(true)
+        setFinish(true)
+
+
+
     }
 
 
 
     return (
-        <div>
+        <div className="end-content">
             {
                 valid === true ?
                     (<Result answers={answers} />) :
@@ -64,6 +77,7 @@ const End = ({ answers }) => {
                         <div className="end" >
                             <div className="textEnd">
                                 {textEnd.map((item, i) => <p key={i}>{item}</p>)}
+
                             </div>
                             <div className="form">
                                 <form onSubmit={checkEmail}>
@@ -73,12 +87,37 @@ const End = ({ answers }) => {
                                     />
                                     <button className="btn-send" type="submit">Envoyer</button>
                                 </form>
+                                <div className="end-spa">
+
+                                </div>
+
                             </div>
                         </div>
                     )
+            }
+
+
+            {
+                valid === true ? null : <div className="end-space"></div>
+            }
+
+
+            {
+                valid === true ? null : <Footer />
             }
         </div>
     )
 }
 
 export default End
+
+
+
+
+
+
+
+
+
+
+

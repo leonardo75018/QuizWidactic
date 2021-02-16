@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import "./questions.css"
 import End from "../End/End"
+import Footer from "../Footer/Footer"
 
 
 
@@ -16,9 +17,11 @@ function App() {
         groupe: 4
       },
       b: {
-        question: "Loyal et attentif à autrui\n",
+        question: "Loyal et attentif à l'autrui\n",
         groupe: 3
-      },
+      }
+
+      ,
       c: {
         question: "Influent et démonstratif\n",
         groupe: 2
@@ -27,7 +30,9 @@ function App() {
         question: "Stratège et entreprenant\n",
         groupe: 1
       }
-    },
+    }
+
+    ,
     {//2
       a: {
         question: "Sociable et familier\n",
@@ -66,7 +71,7 @@ function App() {
     },
     {//4
       a: {
-        question: "Sûr de lui et volontaire\n",
+        question: "Sûr de vous  et volontaire\n",
         groupe: 1
       },
       b: {
@@ -231,7 +236,7 @@ function App() {
     },
     {//13
       a: {
-        question: " Attaché à ses proches et calme\n",
+        question: " Attaché à vos proches et calme\n",
         groupe: 3
       },
       b: {
@@ -384,7 +389,7 @@ function App() {
         groupe: 3
       },
       c: {
-        question: "Argumenté et sûr de lui\n",
+        question: "Argumenté et sûr de vous\n",
         groupe: 1
       },
       d: {
@@ -467,22 +472,12 @@ function App() {
 
 
 
-
-
-
-
-
-
-
-
-
-
   ]
   const [i, setI] = useState(0)
   console.log(i)
 
   const [choix, setChoix] = useState("")
-  console.log(choix)
+
 
 
   const [g1, setG1] = useState(0)
@@ -493,10 +488,16 @@ function App() {
 
 
 
+
   const [aIseChecked, setAIseChecked] = useState(false)
   const [bIseChecked, setBIseChecked] = useState(false)
   const [cIseChecked, setCIseChecked] = useState(false)
   const [dIseChecked, setDIseChecked] = useState(false)
+  const [finish, setFinish] = useState(false)
+
+
+
+
 
 
   useEffect(() => {
@@ -518,33 +519,39 @@ function App() {
   return (
     <div>
 
+      {
+        finish === false ?
+          <div className="step-content">
+            <div className="step">
+              {
+                i === 25 ?
+                  (<h3>Terminé !</h3>) :
+                  (<p> {i}/25 </p>)
+              }
 
-      <div className="step-content">
-        <div className="step">
-          {
-            i === 25 ?
-              (<h3>Terminé!</h3>) :
-              (<h3> {i}/25 </h3>)
-          }
+              {i <= questions.length - 1 ?
 
-          {i <= questions.length - 1 ?
+                (
+                  <div>
 
-            (
-              <div>
+                  </div>
+                ) : (<div> </div>)
+              }
+              <progress value={i} max="25" />
 
-              </div>
-            ) : (<div> </div>)
-          }
-          <progress value={i} max="25" />
-        </div>
-      </div>
+
+
+            </div>
+          </div> : null
+
+      }
 
 
       <div className="card">
         {i <= questions.length - 1 ?
           <div className="content" >
 
-            <h2>Vous etre plutôt...</h2>
+            <h3>Vous être plutôt...</h3>
 
             <div className="group">
               <label htmlFor="a" className="radio">
@@ -606,48 +613,57 @@ function App() {
                 {questions[i].d.question}
               </label>
             </div>
-            {
-              aIseChecked === true || bIseChecked === true || cIseChecked === true || dIseChecked === true ?
-                <div className="btn-content">
-                  <button className="btn-next" onClick={() => {
 
-                    if (choix === "a") {
-                      addGroupe(questions[i].a.groupe)
-                    } else if (choix === "b") {
-                      addGroupe(questions[i].b.groupe)
-                    } else if (choix === "c") {
-                      addGroupe(questions[i].c.groupe)
-                    } else if (choix === "d") {
-                      addGroupe(questions[i].d.groupe)
-                    }
-                    //console.log(`stap${i + 1} g1=>${g1}, g2=>${g2}, g3=>${g3}, g4=>${g4}`)
-                    setI(i + 1)//passe au chois suivent
-                    setAIseChecked(false)//reset les inputs
-                    setBIseChecked(false)
-                    setCIseChecked(false)
-                    setDIseChecked(false)
-                  }}></button>
-                </div> : null
-            }
+            <div className="btn-space">
 
+              {
+                aIseChecked === true || bIseChecked === true || cIseChecked === true || dIseChecked === true ?
+                  <div className="btn-content">
+                    <button className="btn-next" onClick={() => {
 
+                      if (choix === "a") {
+                        addGroupe(questions[i].a.groupe)
+                      } else if (choix === "b") {
+                        addGroupe(questions[i].b.groupe)
+                      } else if (choix === "c") {
+                        addGroupe(questions[i].c.groupe)
+                      } else if (choix === "d") {
+                        addGroupe(questions[i].d.groupe)
+                      }
+                      //console.log(`stap${i + 1} g1=>${g1}, g2=>${g2}, g3=>${g3}, g4=>${g4}`)
+                      setI(i + 1)//passe au chois suivent
+                      setAIseChecked(false)//reset les inputs
+                      setBIseChecked(false)
+                      setCIseChecked(false)
+                      setDIseChecked(false)
+                    }}></button>
+                  </div>
 
-
+                  : null
+              }
+            </div>
 
           </div>
 
           : <End answers={
             [
-              { rouge: "Rouge", points: g1 },
-              { jaune: "Jaune", points: g2 },
-              { vert: "Vert", points: g3 },
-              { blue: "Blue", points: g4 }
+              { rouge: "ROUGE", points: g1 },
+              { jaune: "JAUNE", points: g2 },
+              { vert: "VERT", points: g3 },
+              { blue: "BLUE", points: g4 }
             ]
+          }
+            setFinish={setFinish}
 
-          } />}
+          />}
 
         {/* console.log("final g1=>" + g1, "g2=>" + g2, "g3=>" + g3, "g4=>" + g4)  */}
       </div>
+      <div className="question-space"></div>
+      {
+        i === 25 ? null : <Footer />
+      }
+
     </div>
   );
 }

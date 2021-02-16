@@ -1,15 +1,31 @@
 
-/* html,
-body,
-#root {
-  height: 100%;
-} */
+
+
+
+@font-face {
+  font-family: "AvenirNextLTPro-It";
+  src: url("./Font//AvenirNextLTPro-It.otf"),
+ }
+
+
+ p,ul,button{
+  font-family:"AvenirNextLTPro-It";
+  color: rgb(23, 2, 49);
+}
+
+
+
+
+
 
 body{
   margin: 0;
   padding: 0;
 }
 
+p{
+
+}
 
 
 
@@ -18,10 +34,6 @@ body{
   height: 19vh;
 }
 
-p{
-  color:rgb(23, 2, 49);
-
-}
 
 
 @media only screen and (max-width: 768px) {

@@ -1,15 +1,10 @@
 
+
 @font-face {
-    font-family: "AvenirNextLTPro-Bold";
-    src: url("../../../Font/AvenirNextLTPro-Bold.otf") format("otf")
-          
+    font-family:"Gilroy-ExtraBold.otf";
+    src: url("../../../Font/Gilroy-Regular.otf"),
    }
 
-
-
-body{
-    font-family: "AvenirNextLTPro-Bold";
-}
 
 
 
@@ -26,14 +21,31 @@ body{
 
 .content{
     width: 50%;
-    height: auto;
-   
+    height: auto; 
+    padding-top: 44px;
+}
+
+.content h3 {
+  font-weight: 900;
+  font-size: 29px;
+  
+
+
 }
 
 .step-content{
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+
+
+.step h3{
+   font-weight:bold;
+   font-family:"Gilroy-ExtraBold.otf"; 
+       font-size: 29px;
+    line-height: 35px;
 }
 
 
@@ -44,13 +56,23 @@ body{
 
 
 progress{
-    width: 90%;
+    width: 82%;
+      /* border-radius: 5px;  */
   }
 
-
+  progress::-webkit-progress-value {
+    background-color: rgb(23, 2, 49);
+    
+  }
+ 
 .control{
     width: 100%;
     height: auto;
+}
+
+.btn-space{
+    width: 500px;
+    height: 18vh; 
 }
 
 
@@ -58,20 +80,19 @@ progress{
     width: 50%;
     display: flex;
     justify-content: flex-end;
-    padding-top: 20px;      
+    padding-top: 20px;    
+  
 }
 
 .btn-next{
-    width:50px;
-    height:50px;
+    width:40px;
+    height:40px;
     text-align:center;
     border-radius:100px;
     border: none; 
     /* background-color:rgb(23, 2, 49); */
     background-image: url("../../../image/next.png");
     background-size: cover;
-
-
     color: white;
 }
 
@@ -80,9 +101,6 @@ progress{
     color:red;
 }
 
-p.{
-    font-family: amac;
-}
 
 
 .textEnd{
@@ -108,26 +126,35 @@ form{
 
 
 input[type=email] {
-    width: 233px;
-    height: 34px;
-    padding: 12px 20px;
-    margin: 8px 0;
+    width: 297px;
+    height: 39px;
+    padding: 15px 20px;
+    margin: 34px 0;
     box-sizing: border-box;
-    border-radius:100px;
+    border-radius: 100px;
     text-align: center;
-    background-color:rgb(100, 87, 119);
+    background-color: #746885;
     border: none;
     color: white;
-  }
+}
+
+button{
+    font-size: 16px;
+    
+}
+
+::placeholder{
+    color: white;
+}
   
-  .btn-send{
-    border-radius:100px;
-    width: 90px;
-    height: 30px;
-    background-color:rgb(23, 2, 49);
+.btn-send {
+    border-radius: 100px;
+    width: 114px;
+    height: 39px;
+    background-color: rgb(23, 2, 49);
     border: none;
     color: white;
-  }
+}
 
 
 
@@ -155,7 +182,7 @@ input[type=email] {
   
   label.radio {
     padding-bottom:  20px;
-    margin-bottom: 5px;
+    margin-bottom: 14px;
     font-size: 20px;
   
   }
@@ -166,8 +193,9 @@ input[type=email] {
 } 
 
 .radio--radio{
-    width: 1.25em;
-    height: 1.25em;
+    width: 20px;
+    height: 20px;
+
     border: 2px solid black;
     border-radius: 50px;
     margin-right: 10px;
@@ -179,8 +207,8 @@ input[type=email] {
 
 .radio--radio::after{
     content: "";
-    width: 60%;
-    height: 60%;
+    width: 75%;
+    height: 75%;
     display: block;
     border-radius: 50px;
     background: black;
@@ -191,6 +219,9 @@ input[type="radio"]:checked + .radio--radio::after {
     transform: scale(1);
 } 
 
+progress {
+    background-color: "green";
+  }
  
 
  
@@ -203,7 +234,7 @@ input[type="radio"]:checked + .radio--radio::after {
 .content {
     width: 75%;
     height: auto;
-    padding-top: 40px;
+    /* padding-top: 40px; */
 }
 
 progress{
@@ -222,12 +253,14 @@ progress{
    
 }
 
- 
-
-
+.btn-space{
+    width: 100%;
+    height: 15vh;
   
+   
+}
 
-
-    
+ 
+ 
    
   }

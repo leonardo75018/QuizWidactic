@@ -3,7 +3,7 @@ import Header from "./components/front/Header/Header"
 import Start from "./components/front/Start/Start"
 import Footer from "./components/front/Footer/Footer"
 import Questions from "./components/front/resultado/Questions"
-import Rouge from "./components/front/profils/RougeJeune"
+// import Profils from "./components/front/profils/pr"
 
 
 
@@ -31,8 +31,7 @@ function App() {
         {step === 2 && <Questions />
         }
 
-        <div className="space"></div>
-        <Footer />
+        {/* <Footer /> */}
 
       </div>
     </div>

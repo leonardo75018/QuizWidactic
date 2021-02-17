@@ -81,10 +81,11 @@ const End = ({ answers, setFinish }) => {
                             </div>
                             <div className="form">
                                 <form onSubmit={checkEmail}>
-                                    <span className="error">{error}</span>
                                     <input type="email" placeholder="Votre adresse mail"
                                         onChange={e => setEmail(e.target.value)}
                                     />
+                                    <span className="error">{error}</span>
+
                                     <button className="btn-send" type="submit">Envoyer</button>
                                 </form>
                                 <div className="end-spa">

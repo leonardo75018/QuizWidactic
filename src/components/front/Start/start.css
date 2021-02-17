@@ -69,23 +69,48 @@
       font-size: 17px;
   }
 
+  .btn-start:hover{
+      background-color: white;
+      color: rgb(23, 2, 49);
+      border: 2px solid rgb(23, 2, 49);
 
-  .start-space{
-      height: 20vh;
   }
 
+  .start-space {
+    height: 11vh;
+}
 
 
   /* Responsive  */
 
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-
-    .text-contente{
+    .colortText-contente{
+        width: 250px;
+    
+    }
+    .text {
         width: 100%;
         height: auto;
+        display: flex;
+        flex: content;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -19px;
+    }
+    .text p{
+        margin-top: -10px;
+    }
+
+    .text-contente{
+        width: 90%;
+        height: auto;
         margin-left: 0;
-        text-align: center;  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+      
     }
 
     .btn-start {
@@ -93,7 +118,7 @@
     }
 
     .start-space{
-        height: 16vh;
+        height: 8vh;
     }
     
    

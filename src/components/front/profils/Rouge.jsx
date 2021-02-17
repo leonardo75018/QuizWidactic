@@ -4,8 +4,10 @@ import "./style.css"
 const Rouge = () => {
     return (
         <div id="profil-container">
+            <div className="intro-space"></div>
             <div className="color">
-                <h2> Profil dominant:</h2> &nbsp;  <h2 className="rouge">Rouge </h2>
+                <h2> Profil dominant : </h2>&nbsp;  <h2 className="rouge marge">Rouge</h2>
+
             </div>
             <div className="descrip">
                 <p>
@@ -87,12 +89,7 @@ const Rouge = () => {
                     </p>
                 </div>
                 <div className="ligne"><hr /></div>
-
-
-
-
-
-
+                <div className="next-space"></div>
             </div>
         </div>
     )

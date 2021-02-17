@@ -5,7 +5,7 @@ const Rouge = () => {
     return (
         <div id="profil-container">
             <div className="color">
-                <h2> Profil dominant:</h2> &nbsp; <h2 className="jaune">JAUNE </h2>
+                <h2> Profil dominant  :</h2> &nbsp; <h2 className="jaune marge">JAUNE </h2>
             </div>
             <div className="descrip">
                 <p>
@@ -15,7 +15,7 @@ const Rouge = () => {
                 <p>
                     C’est la couleur de la force, de l’activité, de la rapidité. Symbole de feu, le rouge est la lave, l’incandescence, la chaleur. Les rayons infrarouges procurent une sensation de chaleur. Cette couleur montre la détermination des personnes à agir.
                 </p>
-                <h5>Le profil jaune en quelques mots :</h5>
+                <h4>Le profil jaune en quelques mots :</h4>
                 <p>
                     Autoritaire, compétitif, courageux, décidé, déterminé, direct, énergique, entreprenant, exigeant, indépendant, meneur et rapide.
                 </p>
@@ -23,7 +23,7 @@ const Rouge = () => {
 
             <div className="about">
                 <div className="carater">
-                    <h5>Les caractéristiques principales pour une personnalité à dominante jaune :</h5>
+                    <h4>Les caractéristiques principales pour une personnalité à dominante jaune :</h4>
                     <ul>
                         <li>Optimisme, enthousiasme, communication, actions et décisions spontanées.</li>
                         <li>Recherche l’estime et la reconnaissance, aime travailler en groupe.</li>
@@ -33,7 +33,7 @@ const Rouge = () => {
                 </div>
 
                 <div className="pour">
-                    <h5>Pour bien communiquer avec un interlocuteur à dominante jaune, il faut :</h5>
+                    <h4>Pour bien communiquer avec un interlocuteur à dominante jaune, il faut :</h4>
                     <ul>
                         <li>Se montrer relationnel, chaleureux et enthousiaste, partager le plaisir et le laisser s’exprimer.</li>
                         <li>Etre créatif et informel, montrer à la personne que vous l’appréciez (vraiment) </li>
@@ -84,6 +84,7 @@ const Rouge = () => {
                 </div>
                 <div className="ligne"><hr /></div>
             </div>
+            <div className="next-space"></div>
         </div>
     )
 }

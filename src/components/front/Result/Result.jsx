@@ -41,7 +41,8 @@ const Result = ({ answers }) => {
     return (
         <div className="result-main">
             <div className="result-container">
-                <p> Votre profil DISC :</p>
+                <h4>Merci !</h4>
+                <p className="disc"> Votre profil DISC :</p>
                 <div className="groupe">
                     {
                         answers.map(item =>

@@ -5,7 +5,7 @@ const Rouge = () => {
     return (
         <div id="profil-container">
             <div className="color">
-                <h2> Profil dominant:</h2>&nbsp; <h2 className="vert">Vert </h2>
+                <h2> Profil dominant :</h2>&nbsp;<h2 className="vert marge">Vert </h2>
             </div>
 
             <div className="descrip">
@@ -90,12 +90,7 @@ const Rouge = () => {
                     </p>
                 </div>
                 <div className="ligne"><hr /></div>
-
-
-
-
-
-
+                <div className="next-space"></div>
             </div>
         </div>
     )

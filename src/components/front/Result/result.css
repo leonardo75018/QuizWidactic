@@ -1,3 +1,18 @@
+@font-face {
+    font-family: "Avenir Next LT Pro";
+    src: url("../../../Font/AvenirNextLTPro-Regular.otf") format("otf"),
+   }
+  
+   @font-face {
+    font-family: "Gilroy";
+    src: url("../../../Font//Gilroy-ExtraBold.otf") format("otf"),
+   }
+
+
+   .result-container h4{
+    font-family: "Gilroy";
+    font-size: 29px;
+   }
 
 
 
@@ -18,9 +33,22 @@
     width: 100%;
     flex-direction: column;
     align-items: center;
-   
-  
 }
+
+
+.result-container h4{
+
+   font-size: 29px;
+}
+
+
+
+.disc{
+    font-size: 29px;
+    margin-top: -21px;
+}
+
+
 
 
 .groupe{
@@ -35,6 +63,7 @@
     width: 45%;
      display: flex;
      justify-content: space-between;
+     margin-top: -50px;
   
  }
 
@@ -89,14 +118,14 @@
         width: 100%;
     }
     .groupe{
-        width: 70%;
+        width: 80%;
          display: flex;
-         justify-content: space-evenly;
+         justify-content: space-between;
        
      }
 
      .points{
-         width: 60%;
+         width: 70%;
      }
 
      .result-p{
@@ -113,6 +142,10 @@
         height:10vh ;
         background-color: blueviolet;
     
+    }
+
+    .marge{
+        padding: 20px;
     }
 
 }

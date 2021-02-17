@@ -1,9 +1,19 @@
-
-
 @font-face {
-    font-family:"Gilroy-ExtraBold.otf";
-    src: url("../../../Font/Gilroy-Regular.otf"),
+    font-family: "Avenir Next LT Pro";
+    src: url("../../../Font/AvenirNextLTPro-Regular.otf") format("otf"),
    }
+  
+   @font-face {
+    font-family: "Gilroy";
+    src: url("../../../Font//Gilroy-ExtraBold.otf") format("otf"),
+   }
+
+
+   label,   .step p{
+    font-family: "Avenir Next LT Pro";
+   }
+
+ 
 
 
 
@@ -26,11 +36,8 @@
 }
 
 .content h3 {
-  font-weight: 900;
-  font-size: 29px;
-  
-
-
+    font-family: "Gilroy";
+    font-size: 29px;
 }
 
 .step-content{
@@ -42,10 +49,8 @@
 
 
 .step h3{
-   font-weight:bold;
-   font-family:"Gilroy-ExtraBold.otf"; 
-       font-size: 29px;
-    line-height: 35px;
+    font-family: "Avenir Next LT Pro";
+    font-size: 29px; 
 }
 
 
@@ -71,15 +76,15 @@ progress{
 }
 
 .btn-space{
-    width: 500px;
+    width: 100%;
     height: 18vh; 
 }
 
 
 .btn-content{
-    width: 50%;
+    width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content:center;
     padding-top: 20px;    
   
 }
@@ -99,6 +104,9 @@ progress{
 
 .error{
     color:red;
+    margin-top: -30px;
+    padding-bottom: 10px;
+  
 }
 
 
@@ -183,7 +191,7 @@ button{
   label.radio {
     padding-bottom:  20px;
     margin-bottom: 14px;
-    font-size: 20px;
+    font-size: 24px;
   
   }
 
@@ -232,9 +240,10 @@ progress {
 
 
 .content {
-    width: 75%;
+    width: 80%;
     height: auto;
-    /* padding-top: 40px; */
+    margin-top: -42px;
+  
 }
 
 progress{
@@ -244,7 +253,7 @@ progress{
 .btn-content {
     width: 100%;
     justify-content: center;
-    padding-top: 20px;
+    padding-top: 0;
 }
 
 
@@ -255,12 +264,10 @@ progress{
 
 .btn-space{
     width: 100%;
-    height: 15vh;
-  
-   
+    height: 10vh;  
+}
+label.radio {
+    font-size: 20px;
 }
 
- 
- 
-   
   }

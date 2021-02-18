@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/QuizWidactic/static/css/main.4f055dff.chunk.css",
-    "main.js": "/QuizWidactic/static/js/main.4979aef7.chunk.js",
-    "main.js.map": "/QuizWidactic/static/js/main.4979aef7.chunk.js.map",
+    "main.css": "/QuizWidactic/static/css/main.0eb2d301.chunk.css",
+    "main.js": "/QuizWidactic/static/js/main.f8b39dbd.chunk.js",
+    "main.js.map": "/QuizWidactic/static/js/main.f8b39dbd.chunk.js.map",
     "runtime-main.js": "/QuizWidactic/static/js/runtime-main.47a8dffd.js",
     "runtime-main.js.map": "/QuizWidactic/static/js/runtime-main.47a8dffd.js.map",
     "static/js/2.b2ebdbff.chunk.js": "/QuizWidactic/static/js/2.b2ebdbff.chunk.js",
     "static/js/2.b2ebdbff.chunk.js.map": "/QuizWidactic/static/js/2.b2ebdbff.chunk.js.map",
     "index.html": "/QuizWidactic/index.html",
-    "static/css/main.4f055dff.chunk.css.map": "/QuizWidactic/static/css/main.4f055dff.chunk.css.map",
+    "static/css/main.0eb2d301.chunk.css.map": "/QuizWidactic/static/css/main.0eb2d301.chunk.css.map",
     "static/js/2.b2ebdbff.chunk.js.LICENSE.txt": "/QuizWidactic/static/js/2.b2ebdbff.chunk.js.LICENSE.txt",
     "static/media/App.css": "/QuizWidactic/static/media/Gilroy-ExtraBold.0094146a.otf",
     "static/media/academie.1eebd2ff.png": "/QuizWidactic/static/media/academie.1eebd2ff.png",
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.47a8dffd.js",
     "static/js/2.b2ebdbff.chunk.js",
-    "static/css/main.4f055dff.chunk.css",
-    "static/js/main.4979aef7.chunk.js"
+    "static/css/main.0eb2d301.chunk.css",
+    "static/js/main.f8b39dbd.chunk.js"
   ]
 }

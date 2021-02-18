@@ -5,7 +5,7 @@ const Rouge = () => {
     return (
         <div id="profil-container">
             <div className="color">
-                <h2> Profil dominant : </h2>&nbsp;  <h2 className="blue marge">BLUE</h2>
+                <h2> PROFILE </h2> &nbsp;  <h2 className="blue marge">BLEU</h2>
             </div>
 
 
@@ -17,14 +17,14 @@ const Rouge = () => {
                 <p>
                     Les personnes avec un profil à dominante bleue perçoivent l’environnement de manière hostile, et sont orientées vers l’introversion/réflexion. Elles seront décrite par les autres comme des personnes factuelles, logiques, organisées, sachant organiser, structurer et contrôler.
                 </p>
-                <h3>Le profil blue en quelques mots :</h3>
+                <h4>Le profil bleu en quelques mots :</h4>
                 <p>
                     Analytique, conventionnel, distant, exact, exigeant, factuel, précis, réaliste, et structuré.                </p>
             </div>
 
             <div className="about">
                 <div className="carater">
-                    <h4>Les caractéristiques principales pour une personnalité à dominante bluee :</h4>
+                    <h4>Les caractéristiques principales pour une personnalité à dominante bleue :</h4>
                     <ul>
                         <li>Recherche des faits et des explications logiques.</li>
                         <li>Actions et prises de décisions prudentes, organisation, structure et détails.</li>
@@ -34,7 +34,7 @@ const Rouge = () => {
                 </div>
 
                 <div className="pour">
-                    <h3>Pour bien communiquer avec un interlocuteur à dominante rouge, il faut :</h3>
+                    <h4>Pour bien communiquer avec un interlocuteur à dominante bleue, il faut :</h4>
                     <ul>
                         <li>Être précis, factuel et structuré.</li>
                         <li>Préparer ses entretiens à l’avance.</li>
@@ -64,8 +64,7 @@ const Rouge = () => {
                 <div className="autres-space"></div>
                 <div className="autres-p">
                     <p>
-                        Diriger, gagner, décider, résoudre des problèmes Évoluer dans un monde de compétition et de pression. Agir rapidement et faire plusieurs choses à la fois.
-                    </p>
+                        Se conformer à des standards élevés dans un environnement perçu de manière hostile.                    </p>
                 </div>
                 <div className="ligne"><hr /></div>
 

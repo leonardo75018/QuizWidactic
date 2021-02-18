@@ -13,6 +13,24 @@
     font-size: 29px;
 }
 
+.carater ul , li {
+   font-size: 20px;
+}
+
+.about h4 , .descrip h4{
+   font-family: "Avenir Next LT Pro";
+   font-size: 20px;
+   font-weight:500;
+}
+
+
+.autres-tile h4{
+    font-family: "Avenir Next LT Pro";
+    font-size: 20px;
+    font-weight:500;
+
+}
+
 
 
 
@@ -57,15 +75,18 @@ h2{
     width:80% ;
     height: auto;
     display: flex;
+    justify-content: space-between;
 }
 
 .carater{
-    width: 44%;
+    width: 49%;
     height: auto;
 }
 
+
+
 .pour{
-    width: 44%;
+    width: 49%;
     height: auto;
 }
 
@@ -74,13 +95,14 @@ h2{
 
 }
 
+
 .profil-space{
     width: 100%;
-    height: 7vh;
+    height: 0;
 }
 
 .autres{
-    width: 80%;
+    width: 59%;
     height: auto;
     display:flex ;
     flex-wrap: wrap;
@@ -88,15 +110,13 @@ h2{
 }
 
 .autres-tile {
-    width: 33%;
-    height: ;
+    width: 26%;
     display: flex;
-    justify-content: end;
     align-items: center;
 }
 
 .autres-space{
-    width: 8%;
+    width: 15%;
  
 }
 
@@ -179,6 +199,11 @@ hr{
     .pour , .carater{
         width: 100%;
         
+    }
+
+
+    .autres {
+        width: 70%;
     }
 
     .autres-tile{

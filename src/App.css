@@ -16,7 +16,7 @@ body{
  }
 
 
- p ,button, .error, h4{
+ p ,button, .error, h4 ul , li{
   font-family: "Avenir Next LT Pro";
  }
 
@@ -32,11 +32,9 @@ body{
  h2{
   font-family: "Gilroy";
   font-size: 40px ;
+  letter-spacing: 1px;
 
  }
-
-
- 
 
 
 .space{
@@ -60,6 +58,17 @@ body{
     font-size: 30px ;
   
    }
+
+
+
+
+
+   
+
+
+
+
+
   
 }
 

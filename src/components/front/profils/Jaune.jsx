@@ -5,20 +5,18 @@ const Rouge = () => {
     return (
         <div id="profil-container">
             <div className="color">
-                <h2> Profil dominant  :</h2> &nbsp; <h2 className="jaune marge">JAUNE </h2>
+                <h2>  PROFILE</h2> &nbsp; <h2 className="jaune marge">JAUNE </h2>
             </div>
             <div className="descrip">
                 <p>
-                    C’est la couleur de la force, de l’activité, de la rapidité. Symbole de feu, le rouge est la lave, l’incandescence, la chaleur. Les rayons infrarouges procurent une sensation de chaleur. Cette couleur montre la détermination des personnes à agir.
-
+                    Symbolisée par le soleil, la composante jaune décrit la manière dont une personne influence et interagit avec les autres. Ce comportement résulte d’une orientation vers l’action dans un environnement perçu comme favorable.
                 </p>
                 <p>
-                    C’est la couleur de la force, de l’activité, de la rapidité. Symbole de feu, le rouge est la lave, l’incandescence, la chaleur. Les rayons infrarouges procurent une sensation de chaleur. Cette couleur montre la détermination des personnes à agir.
+                    Les personnes avec un profil à dominante  “jaune” sont sociables et communicantes. Elles perçoivent l’environnement de manière favorable/sociable et sont orientées vers l’extraversion/action.
                 </p>
                 <h4>Le profil jaune en quelques mots :</h4>
                 <p>
-                    Autoritaire, compétitif, courageux, décidé, déterminé, direct, énergique, entreprenant, exigeant, indépendant, meneur et rapide.
-                </p>
+                    Amical,  assuré, communicant, créatif, démonstratif, enthousiaste, expansif, inspirant, optimiste, persuasif, spontané, et rêveur.                </p>
             </div>
 
             <div className="about">
@@ -59,8 +57,7 @@ const Rouge = () => {
                 <div className="autres-space"></div>
                 <div className="autres-p">
                     <p>
-                        Diriger, gagner, décider, résoudre des problèmes Évoluer dans un monde de compétition et de pression. Agir rapidement et faire plusieurs choses à la fois.
-                    </p>
+                        La relation aux autres, la reconnaissance sociale et la créativité.                    </p>
                 </div>
                 <div className="ligne"><hr /></div>
 

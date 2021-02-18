@@ -203,7 +203,6 @@ button{
 .radio--radio{
     width: 20px;
     height: 20px;
-
     border: 2px solid black;
     border-radius: 50px;
     margin-right: 10px;
@@ -215,8 +214,8 @@ button{
 
 .radio--radio::after{
     content: "";
-    width: 75%;
-    height: 75%;
+    width: 12px;
+    height: 12px;
     display: block;
     border-radius: 50px;
     background: black;
@@ -237,8 +236,6 @@ progress {
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-
-
 .content {
     width: 80%;
     height: auto;
@@ -264,7 +261,7 @@ progress{
 
 .btn-space{
     width: 100%;
-    height: 10vh;  
+    height: 27vh;  
 }
 label.radio {
     font-size: 20px;

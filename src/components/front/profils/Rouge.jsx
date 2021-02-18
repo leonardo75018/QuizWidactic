@@ -6,7 +6,7 @@ const Rouge = () => {
         <div id="profil-container">
             <div className="intro-space"></div>
             <div className="color">
-                <h2> Profil dominant : </h2>&nbsp;  <h2 className="rouge marge">Rouge</h2>
+                <h2>  PROFILE </h2>&nbsp;  <h2 className="rouge marge">ROUGE</h2>
 
             </div>
             <div className="descrip">
@@ -40,7 +40,7 @@ const Rouge = () => {
                     <h4>Pour bien communiquer avec un interlocuteur à dominante rouge, il faut :</h4>
                     <ul>
                         <li>Aller droit au but, exposer ses objectifs et le questionner sur les siens</li>
-                        <li>Etre concis et affirmé, aller droit à l’essentiel si vous ressentez de l’impatience chez votre interlocuteur</li>
+                        <li>Être concis et affirmé, aller droit à l’essentiel si vous ressentez de l’impatience chez votre interlocuteur.</li>
                         <li>Valoriser ce qu’il a à gagner en allant dans votre sens, l’amener à être moteur et décideur</li>
                         <li>Le faire bouger si possible car il aura dès lors une meilleure écoute.</li>
                         <li>Valoriser son sens du défi et de la réactivité</li>

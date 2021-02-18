@@ -474,7 +474,6 @@ function App() {
 
   ]
   const [i, setI] = useState(0)
-  console.log(i)
 
   const [choix, setChoix] = useState("")
 
@@ -501,7 +500,7 @@ function App() {
 
 
   useEffect(() => {
-    // console.log(i)
+
   }, [i])
 
   function addGroupe(int) {
@@ -526,7 +525,7 @@ function App() {
               {
                 i === 25 ?
                   (<h3>Terminé !</h3>) :
-                  (<p> {i}/25 </p>)
+                  (<p> {i + 1}/25 </p>)
               }
 
               {i <= questions.length - 1 ?
@@ -538,9 +537,6 @@ function App() {
                 ) : (<div> </div>)
               }
               <progress value={i} max="25" />
-
-
-
             </div>
           </div> : null
 
@@ -551,7 +547,7 @@ function App() {
         {i <= questions.length - 1 ?
           <div className="content" >
 
-            <h3>Vous être plutôt...</h3>
+            <h3>Vous  êtes  plutôt...</h3>
 
             <div className="group">
               <label htmlFor="a" className="radio">
@@ -650,7 +646,7 @@ function App() {
               { rouge: "ROUGE", points: g1 },
               { jaune: "JAUNE", points: g2 },
               { vert: "VERT", points: g3 },
-              { blue: "BLUE", points: g4 }
+              { blue: "BLEU", points: g4 }
             ]
           }
             setFinish={setFinish}

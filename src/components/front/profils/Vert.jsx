@@ -5,7 +5,7 @@ const Rouge = () => {
     return (
         <div id="profil-container">
             <div className="color">
-                <h2> Profil dominant :</h2>&nbsp;<h2 className="vert marge">Vert </h2>
+                <h2>  PROFILE</h2>&nbsp;<h2 className="vert marge">VERT </h2>
             </div>
 
             <div className="descrip">
@@ -20,7 +20,7 @@ const Rouge = () => {
                     Les personnes avec un profil à dominante “verte” sont souvent discrètes et coopératives. Elles perçoivent l’environnement de manière favorable/sociable et sont orientées vers l’introversion/réflexion.
                 </p>
 
-                <h3>Le profil vert en quelques mots :</h3>
+                <h4>Le profil vert en quelques mots :</h4>
                 <p>
                     Attentionné, à l’écoute, calme, compréhensif, consistant, coopérant, détendu, empathique, lent, loyal, patient.
                 </p>
@@ -28,7 +28,7 @@ const Rouge = () => {
 
             <div className="about">
                 <div className="carater">
-                    <h3>Les caractéristiques principales pour une personnalité à dominante vert :</h3>
+                    <h4>Les caractéristiques principales pour une personnalité à dominante vert :</h4>
                     <ul>
                         <li>Attention, stabilité et patience, aime les relations personnalisées.</li>
                         <li>Recherche la cohérence et l’harmonie, besoin d’anticiper.</li>
@@ -39,7 +39,7 @@ const Rouge = () => {
                 </div>
 
                 <div className="pour">
-                    <h3>Pour bien communiquer avec un interlocuteur à dominante vert, il faut :</h3>
+                    <h4>Pour bien communiquer avec un interlocuteur à dominante vert, il faut :</h4>
                     <ul>
                         <li>Être empathique, relationnel et amical, créer une relation de partenariat et de solidarité.</li>
                         <li>Se donner du temps pour construire petit à petit la confiance.</li>
